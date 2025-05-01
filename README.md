@@ -20,7 +20,7 @@ $$
 \begin{pmatrix} 5 & 7 \\ 4 & 6 \end{pmatrix} \sim \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix}
 $$
 
-The determinant of this matrix is 2, and $ \gcd(2, 26) = 13 $. Since 13 is not coprime with 26, no inverse exists for the matrix. In other words, for any $ a \in \mathbb{Z}_{26} $, we have $ 2 \cdot a \neq 1 $. Elementary row operations preserve the kernel of the matrix, and since the reduced form $ \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix} $ has a non-trivial kernel, the matrix is not invertible.
+The determinant of this matrix is 2, and $ \gcd(2, 26) = 2 $. Since 2 is not coprime with 26, no inverse exists for the matrix. In other words, for any $ a \in \mathbb{Z}_{26} $, we have $ 2 \cdot a \neq 1 $. Elementary row operations preserve the kernel of the matrix, and since the reduced form $ \begin{pmatrix} 1 & 1 \\ 0 & 2 \end{pmatrix} $ has a non-trivial kernel, the matrix is not invertible.
 
 #### Practical Observations
 
